@@ -1,0 +1,13 @@
+server:
+  port: 10091   # Application port
+
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: ${AWS_KEY}  # YOUR_ACCESS_KEY
+      secret-key: ${AWS_SECRET}  # YOUR_SECRET_KEY
+    stack:
+      auto: false
